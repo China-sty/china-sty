@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>SpringBoot框架研究</title>
+    <title>SpringBoot框架总结</title>
     <url>/china-sty.github.io/2020/02/12/SpringBoot%E6%A1%86%E6%9E%B6%E7%A0%94%E7%A9%B6/</url>
     <content><![CDATA[<p><img src="/china-sty.github.io/2020/02/12/SpringBoot%E6%A1%86%E6%9E%B6%E7%A0%94%E7%A9%B6/64320df8348d592dd872956ae49686fb.jpg" alt="64320df8348d592dd872956ae49686fb"></p>
 <p>后续会陆续更新一下spring boot学习的一些过程和经验</p>
 ]]></content>
+      <categories>
+        <category>总结</category>
+      </categories>
+      <tags>
+        <tag>框架</tag>
+        <tag>java</tag>
+      </tags>
   </entry>
 </search>

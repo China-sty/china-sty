@@ -6,7 +6,7 @@
   <link href="/china-sty.github.io/atom.xml" rel="self"/>
   
   <link href="https://china-sty.github.io/"/>
-  <updated>2020-02-13T03:30:17.100Z</updated>
+  <updated>2020-02-13T11:49:09.339Z</updated>
   <id>https://china-sty.github.io/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>SpringBoot框架研究</title>
+    <title>SpringBoot框架总结</title>
     <link href="https://china-sty.github.io/2020/02/12/SpringBoot%E6%A1%86%E6%9E%B6%E7%A0%94%E7%A9%B6/"/>
     <id>https://china-sty.github.io/2020/02/12/SpringBoot%E6%A1%86%E6%9E%B6%E7%A0%94%E7%A9%B6/</id>
     <published>2020-02-12T14:26:42.000Z</published>
-    <updated>2020-02-13T03:30:17.100Z</updated>
+    <updated>2020-02-13T11:49:09.339Z</updated>
     
     <summary type="html">
     
@@ -36,6 +36,12 @@
     </summary>
     
     
+      <category term="总结" scheme="https://china-sty.github.io/categories/%E6%80%BB%E7%BB%93/"/>
+    
+    
+      <category term="框架" scheme="https://china-sty.github.io/tags/%E6%A1%86%E6%9E%B6/"/>
+    
+      <category term="java" scheme="https://china-sty.github.io/tags/java/"/>
     
   </entry>
   
