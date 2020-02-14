@@ -8,6 +8,8 @@
 <h3 id="2-和equal的区别："><a href="#2-和equal的区别：" class="headerlink" title="2.==和equal的区别："></a>2.==和equal的区别：</h3><p>equal要求引用的对象内容相同即可，==要求引用也相同</p>
 <p>所以比较字符串是否相等，一般用equal</p>
 <p>equal还可以重载自定义</p>
+<a id="more"></a>
+
 <h3 id="3-两个对象的hashcode（）相同，则equal（）也一定为true吗？"><a href="#3-两个对象的hashcode（）相同，则equal（）也一定为true吗？" class="headerlink" title="3.两个对象的hashcode（）相同，则equal（）也一定为true吗？"></a>3.两个对象的hashcode（）相同，则equal（）也一定为true吗？</h3><p>不一定，这两个方法都可以重载，但是一般相等，可以提高哈希表的性能</p>
 <h3 id="4-final在java中有什么用？"><a href="#4-final在java中有什么用？" class="headerlink" title="4.final在java中有什么用？"></a>4.final在java中有什么用？</h3><p>在匿名内部类中有时被使用</p>
 <p>1.修饰变量：不能被更改</p>
