@@ -93,6 +93,43 @@
     
 
     
+    <div class="article-entry" itemprop="articleBody">
+      
+
+
+      
+
+      
+      <h3 id="1-JDK-和-JRE有什么区别："><a href="#1-JDK-和-JRE有什么区别：" class="headerlink" title="1.JDK 和 JRE有什么区别："></a>1.JDK 和 JRE有什么区别：</h3><p>jdk面向开发人员，jre面向运行人员</p>
+<p> <img src="https://img-blog.csdnimg.cn/20190914142941228.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0NoZW5fMDA2,size_16,color_FFFFFF,t_70" alt="img"> </p>
+<h3 id="2-和equal的区别："><a href="#2-和equal的区别：" class="headerlink" title="2.==和equal的区别："></a>2.==和equal的区别：</h3><p>equal要求引用的对象内容相同即可，==要求引用也相同</p>
+<p>所以比较字符串是否相等，一般用equal</p>
+<p>equal还可以重载自定义</p>
+<a id="more"></a>
+
+<h3 id="3-两个对象的hashcode（）相同，则equal（）也一定为true吗？"><a href="#3-两个对象的hashcode（）相同，则equal（）也一定为true吗？" class="headerlink" title="3.两个对象的hashcode（）相同，则equal（）也一定为true吗？"></a>3.两个对象的hashcode（）相同，则equal（）也一定为true吗？</h3><p>不一定，这两个方法都可以重载，但是一般相等，可以提高哈希表的性能</p>
+<h3 id="4-final在java中有什么用？"><a href="#4-final在java中有什么用？" class="headerlink" title="4.final在java中有什么用？"></a>4.final在java中有什么用？</h3><p>在匿名内部类中有时被使用</p>
+<p>1.修饰变量：不能被更改</p>
+<p>2.修饰方法：不能被重写覆盖</p>
+<p>3.修饰类：不能被继承（少用）</p>
+<h3 id="5-java中Math-round（-1-5）等于多少？"><a href="#5-java中Math-round（-1-5）等于多少？" class="headerlink" title="5.java中Math.round（-1.5）等于多少？"></a>5.java中Math.round（-1.5）等于多少？</h3><p> Math的round方法是四舍五入,如果参数是负数,则往大的数如,Math.round(-1.5)=-1，如果是Math.round(1.5)则结果为2</p>
+<p>（自己看源码）</p>
+<h3 id="6-String属于基础的数据类型吗？"><a href="#6-String属于基础的数据类型吗？" class="headerlink" title="6.String属于基础的数据类型吗？"></a>6.String属于基础的数据类型吗？</h3><p>不是，但是是用final修饰的。不可以改变</p>
+<h3 id="7-java中操作字符串都有哪些类？它们都有什么区别？"><a href="#7-java中操作字符串都有哪些类？它们都有什么区别？" class="headerlink" title="7.java中操作字符串都有哪些类？它们都有什么区别？"></a>7.java中操作字符串都有哪些类？它们都有什么区别？</h3><p> <img src="https://img-blog.csdnimg.cn/20190902164048107.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM3MzU4ODYw,size_16,color_FFFFFF,t_70" alt="img"> </p>
+<p> <img src="https://img-blog.csdnimg.cn/20190902163952840.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM3MzU4ODYw,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
+<p> <img src="https://img-blog.csdnimg.cn/20190902163911944.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM3MzU4ODYw,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
+<p>我们先来看这几个接口究竟是什么？</p>
+<h6 id="1-interface-Serializable"><a href="#1-interface-Serializable" class="headerlink" title="1.interface Serializable"></a>1.interface Serializable</h6>
+      
+      <!-- reward -->
+      
+      <div id="reward-btn">
+        打赏
+      </div>
+      
+    </div>
+    
+    
       <!-- copyright -->
       
         <div class="declare">
