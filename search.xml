@@ -1,6 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>寒假学习文档总结</title>
+    <url>/china-sty.github.io/2020/02/16/%E5%AF%92%E5%81%87%E5%AD%A6%E4%B9%A0%E6%96%87%E6%A1%A3%E6%80%BB%E7%BB%93/</url>
+    <content><![CDATA[<p>Q1：如何在html文件中筛选出文本内容？</p>
+<p>Q2：如何通过url获得网站内容？</p>
+<p>Q3：IOC和DI是什么思想？</p>
+<p>Q4：SpringMVC框架有哪些主要的组件？他们分别在哪里配置？他们怎么协同工作？</p>
+<p>Q5：什么是javaBean？</p>
+<p>Q6：jvm中哪些是线程共享的，哪些是隔离的？</p>
+<p>Q7：jvm中各个部分存储哪些内容？</p>
+<p>Q8：Error和Exception有什么区别？</p>
+<p>Q9：throws和throw有什么区别？</p>
+<p>Q10：创建多线程程序有哪些方式？</p>
+<p>Q11：什么是线程池？</p>
+<p>Q12：css选择器有哪些，分别怎么表示？</p>
+<p>Q13：DOM 和BOM是什么？怎么使用他们？</p>
+<p>Q14：BOM有哪些对象？他们各自有什么方法？</p>
+<p>Q15：类加载和类初始化是什么概念？</p>
+<p>Q16：Class.forName(xxx)以及xxx.class有什么关系？</p>
+<p>Q17：maven的pom文件有哪些固定的配置参数？</p>
+<p>Q18：maven项目比起普通project优势在哪里？</p>
+<p>Q19：json表示法的意义是什么？</p>
+<p>Q20：SpringBoot中@responseBody注解的作用是什么？</p>
+<p>Q21：@Target 注解，@Retention 注解，@Documented 注解，@Inherited注解都各自有哪些功能？</p>
+<p>Q22：Spring的反射是什么含义？怎么实现的？</p>
+<p>Q23：为什么框架中要使用注解？</p>
+<p>Q24：简要说明一下SpringBoot是怎么实现自动配置的？</p>
+<p>Q25：简单工厂模式和工厂方法模式各是什么含义？改进了哪些地方？</p>
+<p>Q26：axioxs和ajax是什么?axios在vue中如何使用？</p>
+<hr>
+<p>这个学期想要学习的一些内容：</p>
+<ol>
+<li><p>Jquery</p>
+</li>
+<li><p>Cms</p>
+</li>
+<li><p>Ssm</p>
+</li>
+<li><p>Mysql</p>
+</li>
+<li><p>Mybatis</p>
+</li>
+<li><p>Redis</p>
+</li>
+<li><p>Dubbo（RPC风格）+zookeeper</p>
+</li>
+<li><p>Springcloud</p>
+</li>
+<li><p>Linux</p>
+</li>
+<li><p>Jvm</p>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>总结</category>
+      </categories>
+      <tags>
+        <tag>java</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>面试2.java容器</title>
     <url>/china-sty.github.io/2020/02/15/%E9%9D%A2%E8%AF%952-java%E5%AE%B9%E5%99%A8/</url>
     <content><![CDATA[<h3 id="18-java的容器都有哪些？"><a href="#18-java的容器都有哪些？" class="headerlink" title="18.java的容器都有哪些？"></a>18.java的容器都有哪些？</h3><p>  <img src="https://img-blog.csdnimg.cn/20190727183756962.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM1NzcxMjY2,size_16,color_FFFFFF,t_70" alt="img">  </p>

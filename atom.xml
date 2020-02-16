@@ -6,7 +6,7 @@
   <link href="/china-sty.github.io/atom.xml" rel="self"/>
   
   <link href="https://china-sty.github.io/"/>
-  <updated>2020-02-16T12:07:27.495Z</updated>
+  <updated>2020-02-16T15:06:16.487Z</updated>
   <id>https://china-sty.github.io/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>寒假学习文档总结</title>
+    <link href="https://china-sty.github.io/2020/02/16/%E5%AF%92%E5%81%87%E5%AD%A6%E4%B9%A0%E6%96%87%E6%A1%A3%E6%80%BB%E7%BB%93/"/>
+    <id>https://china-sty.github.io/2020/02/16/%E5%AF%92%E5%81%87%E5%AD%A6%E4%B9%A0%E6%96%87%E6%A1%A3%E6%80%BB%E7%BB%93/</id>
+    <published>2020-02-16T12:08:18.000Z</published>
+    <updated>2020-02-16T15:06:16.487Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Q1：如何在html文件中筛选出文本内容？&lt;/p&gt;
+&lt;p&gt;Q2：如何通过url获得网站内容？&lt;/p&gt;
+&lt;p&gt;Q3：IOC和DI是什么思想？&lt;/p&gt;
+&lt;p&gt;Q4：SpringMVC框架有哪些主要的组件？他们分别在哪里配置？他们怎么协同工作？&lt;/p&gt;
+&lt;p&gt;Q5：什么是java
+        
+      
+    
+    </summary>
+    
+    
+      <category term="总结" scheme="https://china-sty.github.io/categories/%E6%80%BB%E7%BB%93/"/>
+    
+    
+      <category term="java" scheme="https://china-sty.github.io/tags/java/"/>
+    
+  </entry>
   
   <entry>
     <title>面试2.java容器</title>
