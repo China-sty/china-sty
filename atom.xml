@@ -6,7 +6,7 @@
   <link href="/china-sty.github.io/atom.xml" rel="self"/>
   
   <link href="https://china-sty.github.io/"/>
-  <updated>2020-02-16T15:06:16.487Z</updated>
+  <updated>2020-02-28T15:29:34.493Z</updated>
   <id>https://china-sty.github.io/</id>
   
   <author>
@@ -15,6 +15,67 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>java反射机制</title>
+    <link href="https://china-sty.github.io/2020/02/28/java%E5%8F%8D%E5%B0%84%E6%9C%BA%E5%88%B6/"/>
+    <id>https://china-sty.github.io/2020/02/28/java%E5%8F%8D%E5%B0%84%E6%9C%BA%E5%88%B6/</id>
+    <published>2020-02-28T08:40:45.000Z</published>
+    <updated>2020-02-28T15:29:34.493Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;以前研究过java的反射机制，奈何本人的记性不太好，很多东西一学就忘，现在重新系统地研究一下&lt;/p&gt;
+&lt;p&gt;一般的java代码在运行的时候经历过三个阶段&lt;/p&gt;
+&lt;h4 id=&quot;1-第一个阶段：source源代码阶段&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="框架" scheme="https://china-sty.github.io/tags/%E6%A1%86%E6%9E%B6/"/>
+    
+      <category term="java" scheme="https://china-sty.github.io/tags/java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>java注解</title>
+    <link href="https://china-sty.github.io/2020/02/28/java%E6%B3%A8%E8%A7%A3/"/>
+    <id>https://china-sty.github.io/2020/02/28/java%E6%B3%A8%E8%A7%A3/</id>
+    <published>2020-02-28T04:04:56.000Z</published>
+    <updated>2020-02-28T15:29:38.113Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;我写着一片blog主要解决我一直困扰的几个问题：&lt;/p&gt;
+&lt;p&gt;1.Java的注解究竟是什么？&lt;/p&gt;
+&lt;p&gt;2.注解什么时候被加载？&lt;/p&gt;
+&lt;p&gt;3.注解如何发挥作用？&lt;/p&gt;
+&lt;p&gt;等等。。。&lt;/p&gt;
+&lt;p&gt;注解用@interface表示，是一个继承了Anonotat
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="框架" scheme="https://china-sty.github.io/tags/%E6%A1%86%E6%9E%B6/"/>
+    
+      <category term="java" scheme="https://china-sty.github.io/tags/java/"/>
+    
+  </entry>
   
   <entry>
     <title>寒假学习文档总结</title>
@@ -52,7 +113,7 @@
     <link href="https://china-sty.github.io/2020/02/15/%E9%9D%A2%E8%AF%952-java%E5%AE%B9%E5%99%A8/"/>
     <id>https://china-sty.github.io/2020/02/15/%E9%9D%A2%E8%AF%952-java%E5%AE%B9%E5%99%A8/</id>
     <published>2020-02-15T09:53:29.000Z</published>
-    <updated>2020-02-16T12:07:27.495Z</updated>
+    <updated>2020-02-17T05:49:47.365Z</updated>
     
     <summary type="html">
     
@@ -127,7 +188,7 @@
     <link href="https://china-sty.github.io/2020/02/12/SpringBoot%E6%A1%86%E6%9E%B6%E7%A0%94%E7%A9%B6/"/>
     <id>https://china-sty.github.io/2020/02/12/SpringBoot%E6%A1%86%E6%9E%B6%E7%A0%94%E7%A9%B6/</id>
     <published>2020-02-12T14:26:42.000Z</published>
-    <updated>2020-02-13T11:49:09.339Z</updated>
+    <updated>2020-02-28T15:29:42.147Z</updated>
     
     <summary type="html">
     
