@@ -138,9 +138,9 @@
 <p> 在反序列化的过程中则需要使用serialVersionUID来确定由哪个类来加载这个对象 。</p>
 <p> <img src="https://pics2.baidu.com/feed/7aec54e736d12f2e74a189fae941286684356808.jpeg?token=8db9c3d747a2c165271fec8acab06dcf&s=18205D32190A4449144974DA0000D0B2" alt="img"> </p>
 <p> Transient 关键字的作用是控制变量的序列化 </p>
-<h6 id="2-interface-Comparable"><a href="#2-interface-Comparable" class="headerlink" title="2.interface Comparable"></a>2.interface Comparable<T></h6><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">compareTo</span><span class="params">(T o)</span></span>;</span><br><span class="line"><span class="comment">//该接口对实现它的每个类的对象强加一个整体排序。 这个排序被称为类的自然排序 ，类的compareTo方法被称为其自然比较方法 。</span></span><br></pre></td></tr></table></figure>
+<h6 id="2-interface-Comparable"><a href="#2-interface-Comparable" class="headerlink" title="2.interface Comparable"></a>2.interface Comparable<T></T></h6><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">compareTo</span><span class="params">(T o)</span></span>;</span><br><span class="line"><span class="comment">//该接口对实现它的每个类的对象强加一个整体排序。 这个排序被称为类的自然排序 ，类的compareTo方法被称为其自然比较方法 。</span></span><br></pre></td></tr></table></figure>
 
-<p> &lt;T extends Comparable<T>&gt; : 它代表的意思是：类型T必须实现Comparable接口，并且这个接口的类型是T。这样，T的实例之间才能相互比较大小。</p>
+<p> &lt;T extends Comparable<T>&gt; : 它代表的意思是：类型T必须实现Comparable接口，并且这个接口的类型是T。这样，T的实例之间才能相互比较大小。</T></p>
 <p>&lt;T extends Comparable&lt;? super T&gt;&gt;　:类型T必须实现Comparable接口，并且这个接口的类型是T或者是T的任一父类。这样声明后，T的实例之间和T的父类的实例之间可以相互比较大小。</p>
 <h6 id="3-interface-CharSequence"><a href="#3-interface-CharSequence" class="headerlink" title="3.interface CharSequence"></a>3.interface CharSequence</h6><p> JDK1.8中为了加强接口的能力，使得接口可以存在具体的方法，前提是方法需要被default或static关键字所修饰。 </p>
 <p>woc，这下interface流弊了，不仅又静态方法，还有可以被实现类继承和重写的方法。</p>
@@ -280,19 +280,19 @@
 </thead>
 <tbody><tr>
 <td>一. 使用QueryString变量</td>
-<td>QueryString是一种非常简单也是使用比较多的一种传值方式，但是它将传递的值显示在浏览器的地址栏中,如果是传递一个或多个安全性要求不高或是结构简单的数值时，可以使用这个方法。<br/><br/>Response.Redirect( “target.aspx?param1=hello&para;m2=hi “)<br/><br/>接收页面： string str = Request.QueryString[“param1”];<br/><br/>string str1 = Request.QueryString[“param2];</td>
+<td>QueryString是一种非常简单也是使用比较多的一种传值方式，但是它将传递的值显示在浏览器的地址栏中,如果是传递一个或多个安全性要求不高或是结构简单的数值时，可以使用这个方法。<br><br>Response.Redirect( “target.aspx?param1=hello&para;m2=hi “)<br><br>接收页面： string str = Request.QueryString[“param1”];<br><br>string str1 = Request.QueryString[“param2];</td>
 </tr>
 <tr>
 <td>二.使用Cookie对象变量(Cookie是存放在客户端的)</td>
-<td>设置Cookie: HttpCookie cookie_name = new HttpCookie(“name”);<br/><br/>cookie_name.Value = Label1.Text;<br/><br/>Reponse.AppendCookie(cookie_name);<br/><br/>获取Cookie:<br/><br/>string name= Request.Cookie[“name”].Value.ToString();</td>
+<td>设置Cookie: HttpCookie cookie_name = new HttpCookie(“name”);<br><br>cookie_name.Value = Label1.Text;<br><br>Reponse.AppendCookie(cookie_name);<br><br>获取Cookie:<br><br>string name= Request.Cookie[“name”].Value.ToString();</td>
 </tr>
 <tr>
 <td>三. 使用Session变量(session是存放在服务器端的)</td>
-<td>设置Session: Session[“name”] =”hello”;<br/><br/>获取Session: string name = Session[“name”].ToString();</td>
+<td>设置Session: Session[“name”] =”hello”;<br><br>获取Session: string name = Session[“name”].ToString();</td>
 </tr>
 <tr>
 <td>四.使用Application 对象变量</td>
-<td>Application对象的作用范围是整个全局，也就是说对所有用户都有效。此种方法不常使用，因为Application在一个应用程序域范围共享，所有用户可以改变及设置其值，故只应用计数器等需要全局变量的地方。<br/><br/>设置Application : Application[“name”] = =”hello”;<br/><br/>获取Application : string name = Application[“name”].ToString();</td>
+<td>Application对象的作用范围是整个全局，也就是说对所有用户都有效。此种方法不常使用，因为Application在一个应用程序域范围共享，所有用户可以改变及设置其值，故只应用计数器等需要全局变量的地方。<br><br>设置Application : Application[“name”] = =”hello”;<br><br>获取Application : string name = Application[“name”].ToString();</td>
 </tr>
 </tbody></table>
 <p>起始，只是顺序执行，然后抽象出过程函数，这个抽象出来的东西是阻塞的，肯定要得到结果才处理。然后，出然了回调，不阻塞，直接返回，约定结果通过另一个方法提交返回。这个过程就是回调。 </p>
