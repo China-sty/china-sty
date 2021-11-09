@@ -11,7 +11,7 @@
         name="viewport"
         content="width=device-width, initial-scale=1, maximum-scale=1"
       />
-      <title>算法岗面试 |  vsty’s blog</title>
+      <title>卡尔曼滤波 |  vsty’s blog</title>
   <meta name="generator" content="hexo-theme-ayer">
       
       <link rel="shortcut icon" href="/favicon.ico" />
@@ -54,7 +54,7 @@
     <main class="content on">
       <section class="outer">
   <article
-  id="post-算法岗面试"
+  id="post-卡尔曼滤波"
   class="article article-type-post"
   itemscope
   itemprop="blogPost"
@@ -65,7 +65,7 @@
     <header class="article-header">
        
 <h1 class="article-title sea-center" style="border-left:0" itemprop="name">
-  算法岗面试
+  卡尔曼滤波
 </h1>
  
 
@@ -73,15 +73,15 @@
     </header>
      
     <div class="article-meta">
-      <a href="/2021/11/03/%E7%AE%97%E6%B3%95%E5%B2%97%E9%9D%A2%E8%AF%95/" class="article-date">
-  <time datetime="2021-11-03T11:53:55.000Z" itemprop="datePublished">2021-11-03</time>
+      <a href="/2021/11/08/%E5%8D%A1%E5%B0%94%E6%9B%BC%E6%BB%A4%E6%B3%A2/" class="article-date">
+  <time datetime="2021-11-08T03:00:34.000Z" itemprop="datePublished">2021-11-08</time>
 </a>   
 <div class="word_count">
     <span class="post-time">
         <span class="post-meta-item-icon">
             <i class="ri-quill-pen-line"></i>
             <span class="post-meta-item-text"> Word count:</span>
-            <span class="post-count">10</span>
+            <span class="post-count">314</span>
         </span>
     </span>
 
@@ -103,7 +103,19 @@
   
     <div class="article-entry" itemprop="articleBody">
        
-  <p>参考：<a target="_blank" rel="noopener" href="https://blog.csdn.net/csdn_jiayu/article/details/88044108">https://blog.csdn.net/csdn_jiayu/article/details/88044108</a></p>
+  <p>时间序列平滑</p>
+<p>卡尔曼滤波</p>
+<p>参考文献（A Model for Non-Stationary Time Series and Its Applications in Filtering and Anomaly Detection）（2021）</p>
+<p>在时间序列预测中，脏乱数据的存在会影响最终的预测结果。这是肯定的，尤其是在这个领域，因为时间依赖性在处理时间序列时起着至关重要的作用。</p>
+<p><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/250064223">https://zhuanlan.zhihu.com/p/250064223</a></p>
+<p>使用卡尔曼滤波平滑时间序列，提高时序预测的准确率.</p>
+<p>去噪：通过使用信号的平均函数(DMF)的导数，使传感器的噪声测量具有更令人满意的去噪/滤波性能。</p>
+<p>算法步骤：</p>
+<p>卡尔曼滤波（Kalman filter）的目标是：当获得一个新的数据点时，递归地更新状态变量的信息，即递归地得到在给定数据Ft=y1,⋯,yt条件下st+1的条件分布和模型。由于卡尔曼滤波早已有成型的公式，因此公式的推导过程在这里不做赘述，直接给出。</p>
+<p>对于（2）式所给出的状态空间模型，给定初始值s1|0,Σ1|0，卡尔曼滤波的算法为（公式中上角标T表示转置）：</p>
+<p><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/23534595">https://zhuanlan.zhihu.com/p/23534595</a></p>
+<p>算法流程：</p>
+<p><img src="C:\Users\邵天宇\AppData\Roaming\Typora\typora-user-images\image-20211109152252588.png" alt="image-20211109152252588"></p>
  
       <!-- reward -->
       
@@ -168,12 +180,12 @@
     <a class="modal-close" href="javascript:;"><i class="ri-close-circle-line"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://china-sty.github.io/2021/11/03/%E7%AE%97%E6%B3%95%E5%B2%97%E9%9D%A2%E8%AF%95/" alt="微信分享二维码">
+      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://china-sty.github.io/2021/11/08/%E5%8D%A1%E5%B0%94%E6%9B%BC%E6%BB%A4%E6%B3%A2/" alt="微信分享二维码">
     </div>
 </div>
 
 <div id="share-mask"></div>  
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E7%AE%97%E6%B3%95/" rel="tag">算法</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E9%9D%A2%E8%AF%95/" rel="tag">面试</a></li></ul>
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E7%AE%97%E6%B3%95/" rel="tag">算法</a></li></ul>
 
     </footer>
   </div>
@@ -181,19 +193,10 @@
    
   <nav class="article-nav">
     
+    
       <a href="/2021/11/05/%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/" class="article-nav-link">
-        <strong class="article-nav-caption">上一篇</strong>
-        <div class="article-nav-title">
-          
-            数学基础
-          
-        </div>
-      </a>
-    
-    
-      <a href="/2021/11/02/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95/" class="article-nav-link">
         <strong class="article-nav-caption">下一篇</strong>
-        <div class="article-nav-title">前端面试</div>
+        <div class="article-nav-title">数学基础</div>
       </a>
     
   </nav>
